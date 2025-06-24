@@ -1,0 +1,18 @@
+{
+  "title": "Controle de Estoque da Farmácia",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Adicionar novo medicamento ao estoque",
+        "description": "Preencha os detalhes do novo medicamento.",
+        "data": {
+          "name": "Nome do medicamento",
+          "initial_quantity": "Quantidade inicial",
+          "min": "Quantidade mínima",
+          "max": "Quantidade máxima",
+          "unit_of_measurement": "Unidade de medida"
+        }
+      }
+    }
+  }
+}
