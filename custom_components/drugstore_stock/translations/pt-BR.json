@@ -3,13 +3,12 @@
     "step": {
       "user": {
         "title": "Configuração do Estoque da Farmácia",
-        "description": "### {%section_title%}\n\nPor favor, preencha as informações abaixo."
+        "description": "Configure as opções do estoque da farmácia.",
+        "data": {
+          "list_name": "Nome da Lista",
+          "location": "Área"
+        }
       }
     }
-  },
-  "config_flow": {
-    "list_name": "Nome da Lista",
-    "location": "Local (opcional)",
-    "list_configuration": "Configuração da Lista"
   }
 }
