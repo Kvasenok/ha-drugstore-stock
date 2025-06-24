@@ -1,6 +1,7 @@
 """Config flow for Drugstore Stock integration."""
 from homeassistant import config_entries
 import voluptuous as vol
+from homeassistant.helpers import selector
 from .const import DOMAIN
 
 class DrugstoreStockConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
@@ -17,6 +18,8 @@ class DrugstoreStockConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             step_id="user",
             data_schema=vol.Schema({
                 vol.Required("list_name"): str,
-                vol.Optional("location", default=""): str,
+                vol.Optional("location"): selector.selector({
+                    "area": {}
+                }),
             }),
         )
