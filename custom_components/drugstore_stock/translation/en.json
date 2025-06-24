@@ -1,0 +1,18 @@
+{
+  "title": "Drugstore Stock",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a new drug to stock",
+        "description": "Fill in the details for the new medication.",
+        "data": {
+          "name": "Drug name",
+          "initial_quantity": "Initial quantity",
+          "min": "Minimum",
+          "max": "Maximum",
+          "unit_of_measurement": "Unit"
+        }
+      }
+    }
+  }
+}
