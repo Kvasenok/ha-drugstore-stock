@@ -3,14 +3,11 @@
   "config": {
     "step": {
       "user": {
-        "title": "Adicionar novo medicamento ao estoque",
-        "description": "Preencha os detalhes do novo medicamento.",
+        "title": "Adicionar nova lista de estoque",
+        "description": "Defina o nome e a localização da lista de estoque",
         "data": {
-          "name": "Nome do medicamento",
-          "initial_quantity": "Quantidade inicial",
-          "min": "Quantidade mínima",
-          "max": "Quantidade máxima",
-          "unit_of_measurement": "Unidade de medida"
+          "list_name": "Nome da lista",
+          "location": "Localização"
         }
       }
     }
