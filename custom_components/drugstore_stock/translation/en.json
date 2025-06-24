@@ -3,14 +3,11 @@
   "config": {
     "step": {
       "user": {
-        "title": "Add a new drug to stock",
-        "description": "Fill in the details for the new medication.",
+        "title": "Add new stock list",
+        "description": "Set the name and location for the stock list",
         "data": {
-          "name": "Drug name",
-          "initial_quantity": "Initial quantity",
-          "min": "Minimum",
-          "max": "Maximum",
-          "unit_of_measurement": "Unit"
+          "list_name": "List name",
+          "location": "Location"
         }
       }
     }
