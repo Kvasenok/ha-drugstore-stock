@@ -2,14 +2,13 @@
   "config": {
     "step": {
       "user": {
-        "title": "Drugstore Stock Setup",
-        "description": "### {%section_title%}\n\nPlease fill in the information below."
+        "title": "Drugstore Stock Configuration",
+        "description": "Configure your drugstore stock settings.",
+        "data": {
+          "list_name": "List Name",
+          "location": "Location"
+        }
       }
     }
-  },
-  "config_flow": {
-    "list_name": "List Name",
-    "location": "Location (optional)",
-    "list_configuration": "List Configuration"
   }
 }
