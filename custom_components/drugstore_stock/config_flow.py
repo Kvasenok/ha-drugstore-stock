@@ -19,7 +19,6 @@ class DrugstoreStockConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             data_schema=vol.Schema({
                 vol.Required("list_name"): selector.selector({
                     "text": {
-                        "type": "text",
                         "translation_key": "list_name",
                     }
                 }),
