@@ -1,15 +1,15 @@
 {
-  "title": "Drugstore Stock",
   "config": {
     "step": {
       "user": {
-        "title": "Add new stock list",
-        "description": "Set the name and location for the stock list",
-        "data": {
-          "list_name": "List name",
-          "location": "Location"
-        }
+        "title": "Drugstore Stock Setup",
+        "description": "### {%section_title%}\n\nPlease fill in the information below."
       }
     }
+  },
+  "config_flow": {
+    "list_name": "List Name",
+    "location": "Location (optional)",
+    "list_configuration": "List Configuration"
   }
 }
