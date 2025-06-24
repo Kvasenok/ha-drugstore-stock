@@ -1,16 +1,4 @@
 {
   "title": "Drugstore Stock",
-  "description": "Integration for managing your pharmacy stock in Home Assistant.",
-  "config": {
-    "step": {
-      "user": {
-        "title": "Drugstore Stock Configuration",
-        "description": "Configure your drugstore stock settings.",
-        "data": {
-          "list_name": "List Name",
-          "location": "Location"
-        }
-      }
-    }
-  }
+  "description": "Integration for managing your pharmacy stock in Home Assistant."
 }
