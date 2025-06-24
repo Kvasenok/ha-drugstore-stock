@@ -22,4 +22,7 @@ class DrugstoreStockConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     "area": {}
                 }),
             }),
+            description_placeholders={
+                "section_title": "list_configuration",
+            }
         )
