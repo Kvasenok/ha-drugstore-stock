@@ -1,15 +1,15 @@
 {
-  "title": "Controle de Estoque da Farmácia",
   "config": {
     "step": {
       "user": {
-        "title": "Adicionar nova lista de estoque",
-        "description": "Defina o nome e a localização da lista de estoque",
-        "data": {
-          "list_name": "Nome da lista",
-          "location": "Localização"
-        }
+        "title": "Configuração do Estoque da Farmácia",
+        "description": "### {%section_title%}\n\nPor favor, preencha as informações abaixo."
       }
     }
+  },
+  "config_flow": {
+    "list_name": "Nome da Lista",
+    "location": "Local (opcional)",
+    "list_configuration": "Configuração da Lista"
   }
 }
