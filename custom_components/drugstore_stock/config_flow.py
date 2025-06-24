@@ -11,18 +11,22 @@ class DrugstoreStockConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         if user_input is not None:
             return self.async_create_entry(
                 title=user_input["list_name"],
-                data=user_input
+                data=user_input,
             )
 
         return self.async_show_form(
             step_id="user",
             data_schema=vol.Schema({
-                vol.Required("list_name"): str,
+                vol.Required("list_name"): selector.selector({
+                    "text": {
+                        "type": "text",
+                        "translation_key": "list_name",
+                    }
+                }),
                 vol.Optional("location"): selector.selector({
                     "area": {}
                 }),
             }),
-            description_placeholders={
-                "section_title": "list_configuration",
-            }
+            description_placeholders={},
         )
+
