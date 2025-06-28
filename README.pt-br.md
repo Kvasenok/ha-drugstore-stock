@@ -1,3 +1,9 @@
+![hacs custom](https://img.shields.io/badge/hacs-custom-orange.svg)
+![Validate with hassfest](https://github.com/BigPiloto/ha-drugstore-stock/actions/workflows/hassfest.yaml/badge.svg)
+![HACS Action](https://github.com/BigPiloto/ha-drugstore-stock/actions/workflows/validate.yaml/badge.svg)
+![Release](https://img.shields.io/github/v/release/BigPiloto/ha-drugstore-stock.svg)
+![Last commit](https://img.shields.io/github/last-commit/BigPiloto/ha-drugstore-stock.svg)
+
 # Drugstore Stock
 
 Gerencie o estoque de remédios da sua casa no Home Assistant!
