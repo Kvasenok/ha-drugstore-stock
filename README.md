@@ -10,6 +10,9 @@ Drugstore Stock integration allows you to register and monitor your medicine inv
 
 ## Installation
 
+[![Open your Home Assistant instance and show the repository.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository_url=https://github.com/BigPiloto/ha-drugstore-stock)
+
+
 ### Via HACS (recommended)
 
 1. Go to **HACS > Integrations > 3 dots > Custom repositories**
