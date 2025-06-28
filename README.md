@@ -21,7 +21,7 @@ Drugstore Stock integration allows you to register and monitor your medicine inv
 6. Click Download and install it;
 7. Restart Home Assistant.
 
-### Manual
+### Method 2: Manual Installation
 
 1. Download this repository.
 2. Copy the `custom_components/drugstore_stock` folder to your Home Assistant's `custom_components/` directory.
@@ -29,8 +29,12 @@ Drugstore Stock integration allows you to register and monitor your medicine inv
 
 ## Configuration
 
-Go to **Settings > Devices & Services** and add “Drugstore Stock”.  
-Follow the wizard to set up your list of medicines and storage locations.
+1. Access ** Settings> Devices and Services> Add integration> look for `Drugstore Stock` **;
+2. From a name for your list - (optional) choose an area (registered in ha);
+3. Click ** `send`>` finish` **;
+4. Click `Configure`
+5. Select if you want ** Add, edit or remove a medicine **
+6. Follow the card instructions by filling the columns.
 
 ## Screenshots & Examples
 
@@ -42,4 +46,5 @@ Follow the wizard to set up your list of medicines and storage locations.
 
 ## License
 
-[MIT License](LICENSE)
+This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
+
