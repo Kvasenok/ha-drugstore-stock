@@ -1,8 +1,11 @@
 {
   "name": "Drugstore Stock",
-  "content_in_root": false,
-  "domain": "drugstore_stock",
+  "content_type": "integration",
+  "render_readme": true,
   "country": "BR",
-  "homeassistant": "2025.6.3"
-  "render_readme": true
+  "domain": "drugstore_stock",
+  "iot_class": "local_polling",
+  "content_in_root": false,  
+  "homeassistant": "2025.6.3",
+  "image": "https://raw.githubusercontent.com/BigPiloto/ha-drugstore-stock/main/images/logo.png"
 }
