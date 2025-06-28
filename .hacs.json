@@ -1,7 +1,0 @@
-{
-  "name": "Drugstore Stock",
-  "domain": "drugstore_stock",
-  "homeassistant": "2024.5.0",
-  "country": "BR",
-  "codeowners": ["@BigPiloto"]
-}
