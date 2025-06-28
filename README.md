@@ -31,7 +31,7 @@ Drugstore Stock integration allows you to register and monitor your medicine inv
 
 1. Access **`Settings` > `Devices and Services` > `Add integration` > look for `Drugstore Stock`**
 2. From a name for your list - (optional) choose an area (registered in ha)
-3. Click **`send`>` finish`**
+3. Click **`Send` > `Finish`**
 4. Click **`Configure`**
 5. Select if you want **Add, edit or remove a medicine**
 6. Follow the card instructions by filling the columns
