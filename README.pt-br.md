@@ -4,7 +4,7 @@ Gerencie o estoque de remédios da sua casa no Home Assistant!
 
 ## Visão Geral
 
-A integração Drugstore Stock permite cadastrar, monitorar e automatizar o controle de estoque de medicamentos, avisando quando itens estão acabando ou atingem níveis mínimos.
+A integração do Drugstore Stock permite que você registre e monitore seu estoque de medicamentos no Home Assistant, ajudando você a controlar as quantidades disponíveis e identificar quando é hora de reabastecer.
 
 ## Instalação
 
