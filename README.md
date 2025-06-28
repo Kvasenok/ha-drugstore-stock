@@ -6,7 +6,7 @@ Manage your household medicine stock with Home Assistant!
 
 ## Overview
 
-Drugstore Stock integration allows you to register, monitor and automate the management of your medicine stock, sending alerts when items run low or reach minimum levels.
+Drugstore Stock integration allows you to register and monitor your medicine inventory in Home Assistant, helping you keep track of available quantities and identify when it’s time to restock.
 
 ## Installation
 
