@@ -1,41 +1,38 @@
-# Drugstore Stock Card
+# Drugstore Stock
 
-Card personalizado para exibir e editar o estoque de remédios integrado ao Home Assistant.
+Gerencie o estoque de remédios da sua casa no Home Assistant!
 
 ## Visão Geral
 
-O Drugstore Stock Card é um card frontend para o Home Assistant que se integra à integração Drugstore Stock, permitindo visualizar, gerenciar e atualizar facilmente seu estoque de medicamentos pelo dashboard.
+A integração Drugstore Stock permite cadastrar, monitorar e automatizar o controle de estoque de medicamentos, avisando quando itens estão acabando ou atingem níveis mínimos.
 
 ## Instalação
 
 ### Via HACS (recomendado)
-1. Vá em **HACS > Frontend > 3 pontinhos > Repositórios personalizados**
-2. Adicione: `https://github.com/BigPiloto/ha-drugstore-stock-card`
-3. Selecione a categoria: **Frontend**
+
+1. Vá em **HACS > Integrações > 3 pontinhos > Repositórios personalizados**
+2. Adicione: `https://github.com/BigPiloto/ha-drugstore-stock`
+3. Selecione a categoria: **Integração**
 4. Instale e reinicie o Home Assistant.
 
 ### Manual
-1. Baixe o arquivo `drugstore-stock-card.js`.
-2. Coloque-o na pasta `/config/www/` do seu Home Assistant.
-3. Em **Configurações > Painéis > Recursos**, adicione `/local/drugstore-stock-card.js` como recurso.
 
-## Uso
+1. Baixe este repositório.
+2. Copie a pasta `custom_components/drugstore_stock` para o diretório `custom_components/` do seu Home Assistant.
+3. Reinicie o Home Assistant.
 
-Adicione no seu Lovelace:
+## Configuração
 
-```yaml
-type: custom:drugstore-stock-card
-```
+Acesse **Configurações > Dispositivos e Serviços** e adicione “Drugstore Stock”.  
+Siga as instruções do assistente de configuração para cadastrar sua lista de medicamentos e locais de armazenamento.
 
-> Detalhe aqui as opções e exemplos de uso do seu card.
+## Prints e Exemplos
 
-## Prints
-
-> Adicione aqui imagens/gifs do card em funcionamento!
+> Adicione aqui imagens/gifs mostrando o funcionamento da integração!
 
 ## Suporte e Bugs
 
-- Relate problemas ou sugestões em: [Issues](https://github.com/BigPiloto/ha-drugstore-stock-card/issues)
+- Relate problemas ou sugestões em: [Issues](https://github.com/BigPiloto/ha-drugstore-stock/issues)
 
 ## Licença
 
