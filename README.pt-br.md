@@ -8,6 +8,8 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 
 ## Instalação
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=BigPiloto&repository=ha-drugstore-stock&category=Integration)
+
 ### Método 1: Instalação via HACS  (Recomendado)
 
 1. Certifique-se de ter o [HACS](https://hacs.xyz/) instalado em sua instância Home Assistant
