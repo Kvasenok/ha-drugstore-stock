@@ -19,7 +19,7 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 6. Clique em Download e instale;
 7. Reinicie o Home Assistant.
 
-### Manual
+### Método 2: Instalação manual
 
 1. Baixe este repositório.
 2. Copie a pasta `custom_components/drugstore_stock` para o diretório `custom_components/` do seu Home Assistant.
@@ -27,7 +27,7 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 
 ## Configuração
 
-Acesse **Configurações > Dispositivos e Serviços** e adicione “Drugstore Stock”.  
+Acesse **Configurações > Dispositivos e Serviços > Adicionar Integração > procure por `Drugstore Stock`** 
 Siga as instruções do assistente de configuração para cadastrar sua lista de medicamentos e locais de armazenamento.
 
 ## Prints e Exemplos
