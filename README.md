@@ -1,43 +1,40 @@
-# Drugstore Stock Card
+# Drugstore Stock
 
 [🇧🇷 Read in Brazilian Portuguese](README.pt-br.md)
 
-A custom card to display and edit your medicine stock in Home Assistant.
+Manage your household medicine stock with Home Assistant!
 
 ## Overview
 
-Drugstore Stock Card is a frontend card for Home Assistant that integrates with the Drugstore Stock integration, allowing you to easily view, manage and update your medicine inventory from your dashboard.
+Drugstore Stock integration allows you to register, monitor and automate the management of your medicine stock, sending alerts when items run low or reach minimum levels.
 
 ## Installation
 
 ### Via HACS (recommended)
-1. Go to **HACS > Frontend > 3 dots > Custom repositories**
-2. Add: `https://github.com/BigPiloto/ha-drugstore-stock-card`
-3. Select category: **Frontend**
+
+1. Go to **HACS > Integrations > 3 dots > Custom repositories**
+2. Add: `https://github.com/BigPiloto/ha-drugstore-stock`
+3. Select category: **Integration**
 4. Install and restart Home Assistant.
 
 ### Manual
-1. Download `drugstore-stock-card.js`.
-2. Place it in your Home Assistant `/config/www/` directory.
-3. In **Settings > Dashboards > Resources**, add `/local/drugstore-stock-card.js` as a resource.
 
-## Usage
+1. Download this repository.
+2. Copy the `custom_components/drugstore_stock` folder to your Home Assistant's `custom_components/` directory.
+3. Restart Home Assistant.
 
-Add to your Lovelace dashboard:
+## Configuration
 
-```yaml
-type: custom:drugstore-stock-card
-```
+Go to **Settings > Devices & Services** and add “Drugstore Stock”.  
+Follow the wizard to set up your list of medicines and storage locations.
 
-> Add here options and usage examples for your card.
+## Screenshots & Examples
 
-## Screenshots
-
-> Add images/gifs of the card in action!
+> Add images/gifs here showing how it works!
 
 ## Support & Issues
 
-- Report bugs or suggestions at: [Issues](https://github.com/BigPiloto/ha-drugstore-stock-card/issues)
+- Report bugs or suggestions at: [Issues](https://github.com/BigPiloto/ha-drugstore-stock/issues)
 
 ## License
 
