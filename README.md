@@ -38,7 +38,7 @@ Drugstore Stock integration allows you to register and monitor your medicine inv
 
 ## Screenshots & Examples
 
-> Add images/gifs here showing how it works!
+> [Examples](documentation/examples.md)
 
 ## Support & Issues
 
