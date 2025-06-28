@@ -11,6 +11,6 @@
   "entry_class": "local",
   "platforms": ["number"],
   "issue_tracker": "https://github.com/BigPiloto/ha-drugstore-stock/issues",
-  "logo": "icon.png",
-  "icon": "icon.png"
+  "logo": "logo.png",
+  "icon": "logo.png"
 }
