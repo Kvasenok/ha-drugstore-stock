@@ -28,9 +28,11 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 ## Configuração
 
 1. Acesse **Configurações > Dispositivos e Serviços > Adicionar Integração > procure por `Drugstore Stock`**;
-2. De um nome para sua lista;
-  2.1 (Opcional) Escolher uma Área (cadastrada no HA);
-4. Clique em `Enviar`.
+2. De um nome para sua lista - (Opcional) Escolher uma Área (cadastrada no HA);
+3. Clique em **`Enviar` > `Terminar`**;
+4. Clique em `Configurar`
+5. Selecione se quer **Adicionar, Editar ou Remover um medicamento**
+6. Siga as instruções do card preenchendo as colunas.
 
 ## Prints e Exemplos
 
@@ -42,4 +44,4 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 
 ## Licença
 
-[MIT License](LICENSE)
+Este projeto está licenciado sob a licença do MIT - consulte o arquivo [MIT License](LICENSE) para obter detalhes.
