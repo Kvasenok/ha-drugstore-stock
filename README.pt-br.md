@@ -8,6 +8,10 @@
 
 Gerencie o estoque de remédios da sua casa no Home Assistant!
 
+Drugstore Stock é uma integração (custom component) para o Home Assistant. Ela funciona no back-end, processando e expondo os dados das listas de estoque como entidades no Home Assistant.
+
+Para visualizar os dados do Drugstore Stock diretamente no painel (Lovelace), recomenda-se instalar também o cartão personalizado [Drugstore Stock Card](https://github.com/BigPiloto/ha-drugstore-stock-card). Esse cartão facilita a visualização e o gerenciamento das listas de estoque pela interface do Home Assistant.
+
 ## Visão Geral
 
 A integração do Drugstore Stock permite que você registre e monitore seu estoque de medicamentos no Home Assistant, ajudando você a controlar as quantidades disponíveis e identificar quando é hora de reabastecer.
