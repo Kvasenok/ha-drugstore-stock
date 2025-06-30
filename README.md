@@ -10,7 +10,8 @@
 
 Manage your household medicine stock with Home Assistant!
 
-To view Drugstore Stock data directly on your dashboard (Lovelace), it is recommended to also install the custom card [Drugstore Stock Card](https://github.com/BigPiloto/ha-drugstore-stock-card). This card makes it easier to visualize and manage your stock lists through the Home Assistant interface.
+To view Drugstore Stock data directly on your dashboard (Lovelace), it is recommended to also install the custom card [Drugstore Stock Card](https://github.com/BigPiloto/ha-drugstore-stock-card). 
+This card makes it easier to visualize and manage your stock lists through the Home Assistant interface.
 
 ## Overview
 
