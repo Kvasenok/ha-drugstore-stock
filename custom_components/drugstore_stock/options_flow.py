@@ -167,14 +167,13 @@ class DrugstoreStockOptionsFlowHandler(config_entries.OptionsFlow):
 
     async def async_step_save(self):
         try:
-            _LOGGER.error(f"Entrando no async_step_save: _medicines = {self._medicines}")
+            _LOGGER.debug(f"Entrando no async_step_save: _medicines = {self._medicines}")
+            required_keys = [CONF_NAME, CONF_INIT, CONF_MIN, CONF_MAX, CONF_UNIT]
             for med in self._medicines:
-                assert "name" in med, med
-                assert "initial_value" in med, med
-                assert "min_value" in med, med
-                assert "max_value" in med, med
-                assert "unit" in med, med
-
+                missing = [k for k in required_keys if k not in med]
+                if missing:
+                    _LOGGER.error(f"[DrugstoreStock] Medicine entry missing required fields {missing}: {med}")
+                    return self.async_abort(reason="medicine_data_missing")
             return self.async_create_entry(
                 title="",
                 data={CONF_MEDICINES: self._medicines}
