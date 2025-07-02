@@ -1,5 +1,5 @@
 ![hacs custom](https://img.shields.io/badge/hacs-custom-orange.svg)
-<!-- ![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg) -->
+![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg)
 ![HACS Action](https://github.com/BigPiloto/ha-drugstore-stock/actions/workflows/validate.yaml/badge.svg)
 ![Validate with hassfest](https://github.com/BigPiloto/ha-drugstore-stock/actions/workflows/hassfest.yaml/badge.svg)
 ![Release](https://img.shields.io/github/v/release/BigPiloto/ha-drugstore-stock.svg)
