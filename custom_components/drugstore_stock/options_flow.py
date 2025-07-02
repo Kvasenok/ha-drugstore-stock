@@ -30,6 +30,12 @@ class DrugstoreStockOptionsFlowHandler(config_entries.OptionsFlow):
                 "edit": "Editar medicamento existente",
                 "remove": "Remover medicamento existente"
             }
+        elif LANG == "ru":
+            options = {
+                "add": "Добавить новый препарат",
+                "edit": "Редактировать существующий препарат",
+                "remove": "Удалить существующий препарат"
+            }
         else:
             options = {
                 "add": "Add new medicine",
