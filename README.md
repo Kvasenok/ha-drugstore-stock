@@ -8,7 +8,7 @@
 
 # Drugstore Stock
 
-[🇧🇷 Read in Brazilian Portuguese](README.pt-br.md)
+[🇧🇷 Read in Brazilian Portuguese](/documentation/README/README.pt-br.md) - [🇷🇺 Read in Russian](/documentation/README/README.ru.md)
 
 Manage your household medicine stock with Home Assistant!
 
