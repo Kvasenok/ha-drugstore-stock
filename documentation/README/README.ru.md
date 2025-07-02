@@ -51,7 +51,7 @@
 
 ## Скриншоты и примеры
 
-> [Примеры](documentation/examples.ru.md)
+> [Примеры](../documentation/examples.ru.md)
 
 ## Поддержка и вопросы
 
