@@ -50,7 +50,7 @@ A integração do Drugstore Stock permite que você registre e monitore seu esto
 
 ## Prints e Exemplos
 
-> [Exemplos](documentation/examples.pt-BR.md)
+> [Exemplos](../examples.pt-BR.md)
 
 ## Suporte e Bugs
 
